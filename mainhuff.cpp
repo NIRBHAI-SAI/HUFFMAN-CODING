@@ -123,11 +123,9 @@ int main(){
     cout<<endl;
     cout<<"****************CHAR AND FREQ***************"<<endl;
     cout<<endl;
-    ofstream freq("charfreq.txt");
 
     for(auto i: count){
         cout<<i.first<<" "<<i.second<<endl;
-        freq<<i.first<<" "<<i.second<<endl;
     }
     cout<<endl;
     cout<<"*******************************HUFFMAN CODING********************************"<<endl;
